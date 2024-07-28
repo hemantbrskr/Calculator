@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="in1"><h2>Calculator Program in JavaScript</h2></div>
+
+    <div class="in2">
+      <div class="in3">
+        <div class="input">
+          <form name="form1"><input type="text" id="answer" /></form>
+        </div>
+        <div class="num">
+          <button value="1" onclick="form1.answer.value+='1'">1</button>
+          <button value="2" onclick="form1.answer.value+='2'">2</button>
+          <button value="3" onclick="form1.answer.value+='3'">3</button>
+          <button value="+" onclick="form1.answer.value+='+'">+</button>
+          <button value="4" onclick="form1.answer.value+='4'">4</button>
+          <button value="5" onclick="form1.answer.value+='5'">5</button>
+          <button value="6" onclick="form1.answer.value+='6'">6</button>
+          <button value="-" onclick="form1.answer.value+='-'">-</button>
+          <button value="7" onclick="form1.answer.value+='7'">7</button>
+          <button value="8" onclick="form1.answer.value+='8'">8</button>
+          <button value="9" onclick="form1.answer.value+='9'">9</button>
+          <button value="*" onclick="form1.answer.value+='*'">*</button>
+          <button value="/" onclick="form1.answer.value+='/'">/</button>
+          <button value="0" onclick="form1.answer.value+='0'">0</button>
+          <button value="." onclick="form1.answer.value+='.'">.</button>
+          <button value="=" onclick="func1()">=</button>
+        </div>
+      </div>
+      <div class="button">
+        <button onclick="func2()">Clear All</button>
+      </div>
+    </div>
+  </div>
+   <script src="script.js"></script>
+   </body>
+   </html>
